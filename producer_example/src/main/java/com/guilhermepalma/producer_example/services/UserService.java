@@ -14,7 +14,7 @@ import java.util.UUID;
 @RequiredArgsConstructor
 public class UserService {
 
-    private final KafkaTemplate<String, String> kafkaTemplate;
+    private final KafkaTemplate<String, Object> kafkaTemplate;
     @Value("${mykafka.topics.change-user}")
     private String CREATE_USER_TOPIC;
 
@@ -22,7 +22,7 @@ public class UserService {
         String idTransaction = UUID.randomUUID().toString();
 
         log.info(String.format("ID Transaction: [%s]\nPayload: [ %s ]", idTransaction, user.toString()));
-        kafkaTemplate.send(CREATE_USER_TOPIC, idTransaction, user.toString());
+        kafkaTemplate.send(CREATE_USER_TOPIC, idTransaction, user);
 
         return idTransaction;
     }
