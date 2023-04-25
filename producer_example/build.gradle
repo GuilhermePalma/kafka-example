@@ -2,6 +2,7 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '3.0.6'
 	id 'io.spring.dependency-management' version '1.1.0'
+	id "com.github.davidmc24.gradle.plugin.avro" version "1.7.0"
 }
 
 group = 'com.guilhermepalma'
@@ -19,6 +20,7 @@ repositories {
 }
 
 dependencies {
+	implementation "org.apache.avro:avro:1.11.0"
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter'
 	implementation 'org.springframework.kafka:spring-kafka'
@@ -27,6 +29,10 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.kafka:spring-kafka-test'
+}
+
+generateAvroJava {
+	source("${projectDir}/src/main/resources/avro") //sourcepath avrofiles
 }
 
 tasks.named('test') {
