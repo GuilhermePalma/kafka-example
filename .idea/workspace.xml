@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d601b446-9330-4816-a0b6-abcc5c5bba6b" name="Changes" comment="feat: add avro example class">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kafla-example.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer_example/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/producer_example/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/producer_example/src/main/resources/avro/exemple-avro.avsc" beforeDir="false" afterPath="$PROJECT_DIR$/scheme_register_example/src/main/resources/avro/exemple-avro.avsc" afterDir="false" />
+    </list>
+    <list id="935f5aba-6dd8-4cbd-9cbd-a5c9260d4aaf" name="IGNORE" comment="IGNORE">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/consumer_example">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/producer_example">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/scehme_register_example">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/scheme_register_example">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/producer_example">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/producer_example/build.gradle" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OvJUsqPQ7AF9fdZUDdrI33A70u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "C:/repositories/personal/spring_boot/kafla-example/scheme_register_example",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "c6654a8c2bfc23cd334993cdf71c3bdb"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\repositories\personal\spring_boot\kafla-example\scehme_register_example\src\main" />
+      <recent name="C:\repositories\personal\spring_boot\kafla-example\consumer_example\src\main\resources" />
+      <recent name="C:\repositories\personal\spring_boot\kafla-example\producer_example\src\main\resources" />
+      <recent name="C:\repositories\personal\spring_boot\kafla-example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\repositories\personal\spring_boot\kafla-example\scheme_register_example\src\main\resources" />
+      <recent name="C:\repositories\personal\spring_boot\kafla-example\producer_example\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.guilhermepalma.consumer_example" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConsumerExampleApplication">
+    <configuration name="producer_example [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/producer_example" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ConsumerExampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer_example.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guilhermepalma.consumer_example.ConsumerExampleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerExampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="producer_example.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guilhermepalma.producer_example.ProducerExampleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.producer_example [dependencies]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d601b446-9330-4816-a0b6-abcc5c5bba6b" name="Changes" comment="" />
+      <changelist id="935f5aba-6dd8-4cbd-9cbd-a5c9260d4aaf" name="IGNORE" comment="" />
+      <created>1682435140423</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682435140423</updated>
+      <workItem from="1682435141401" duration="9169000" />
+      <workItem from="1683639607308" duration="2634000" />
+      <workItem from="1683642339420" duration="248000" />
+      <workItem from="1683642613515" duration="810000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: create initial projects structs">
+      <created>1682435488284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682435488284</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: add configurations">
+      <created>1682436019859</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682436019859</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: create publisher&#10;&#10;- add Spring Boot Web in build.gradle to use RestController&#10;- create topic in properties&#10;- create the flux: controller --&gt; service --&gt; send message to kafka">
+      <created>1682437122374</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682437122374</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix: import libary to KafkaEnable">
+      <created>1682437644626</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682437644626</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: create consumer&#10;&#10;- configurate method that will recive the events&#10;- show in log the event's proprierties">
+      <created>1682437704072</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682437704072</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: create consumer&#10;&#10;- configurate method that will recive the events&#10;- show in log the event's proprierties">
+      <created>1682437709493</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682437709493</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix: import libary to @EnableKafka">
+      <created>1682443046961</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682443046961</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix: remove final parameter">
+      <created>1682443665162</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682443665162</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix: remove quotations marks">
+      <created>1682456339904</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682456339904</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: change spring boot ports">
+      <created>1682456394334</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682456394334</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix: send entity to kafka">
+      <created>1682456425899</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682456425899</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix: set group-id">
+      <created>1682456439991</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682456439991</updated>
+    </task>
+    <task id="LOCAL-00013" summary="refact: customize return when happens errors">
+      <created>1682456472439</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682456472439</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: add avro in configurations">
+      <created>1682457616739</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682457616739</updated>
+    </task>
+    <task id="LOCAL-00015" summary="feat: add avro example class">
+      <created>1682457978298</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682457978298</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: create initial projects structs" />
+    <MESSAGE value="feat: add configurations" />
+    <MESSAGE value="feat: create publisher&#10;&#10;- add Spring Boot Web in build.gradle to use RestController&#10;- create topic in properties&#10;- create the flux: controller --&gt; service --&gt; send message to kafka" />
+    <MESSAGE value="fix: import libary to KafkaEnable" />
+    <MESSAGE value="feat: create consumer&#10;&#10;- configurate method that will recive the events&#10;- show in log the event's proprierties" />
+    <MESSAGE value="fix: import libary to @EnableKafka" />
+    <MESSAGE value="fix: remove final parameter" />
+    <MESSAGE value="fix: remove quotations marks" />
+    <MESSAGE value="feat: change spring boot ports" />
+    <MESSAGE value="fix: send entity to kafka" />
+    <MESSAGE value="fix: set group-id" />
+    <MESSAGE value="refact: customize return when happens errors" />
+    <MESSAGE value="feat: add avro in configurations" />
+    <MESSAGE value="feat: add avro example class" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add avro example class" />
+  </component>
+</project>

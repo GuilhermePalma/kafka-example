@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+    id "com.github.davidmc24.gradle.plugin.avro" version "1.7.0"
+}
+
+group 'com.guilhermepalma'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven { url "https://packages.confluent.io/maven/" }
+}
+
+dependencies {
+    // Avro Dependencies
+    implementation "org.apache.avro:avro:1.11.0"
+    implementation "org.apache.avro:avro-tools:1.11.0"
+    implementation "io.confluent:kafka-avro-serializer:6.0.0"
+
+    // Default Dependencies
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.2'
+}
+
+generateAvroJava {
+    // Sourcepath avrofiles
+    source("${projectDir}/src/main/resources/avro")
+}
+
+test {
+    useJUnitPlatform()
+}

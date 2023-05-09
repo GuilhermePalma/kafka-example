@@ -20,7 +20,6 @@ repositories {
 }
 
 dependencies {
-	implementation "org.apache.avro:avro:1.11.0"
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter'
 	implementation 'org.springframework.kafka:spring-kafka'
@@ -29,10 +28,6 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.springframework.kafka:spring-kafka-test'
-}
-
-generateAvroJava {
-	source("${projectDir}/src/main/resources/avro") //sourcepath avrofiles
 }
 
 tasks.named('test') {
