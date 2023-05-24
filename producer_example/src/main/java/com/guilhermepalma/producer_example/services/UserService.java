@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
+import java.util.HashSet;
+import java.util.Set;
 import java.util.UUID;
 
 @Service
@@ -19,12 +21,17 @@ public class UserService {
     private String CREATE_USER_TOPIC;
 
     public String createUser(User user) {
-        String idTransaction = UUID.randomUUID().toString();
+        Set<String> ids = new HashSet<>();
 
-        log.info(String.format("ID Transaction: [%s]\nPayload: [ %s ]", idTransaction, user.toString()));
-        kafkaTemplate.send(CREATE_USER_TOPIC, idTransaction, user);
+        for (int i = 0; i < 6; i++) {
+            String idTransaction = UUID.randomUUID().toString();
 
-        return idTransaction;
+            log.info(String.format("ID Transaction: [%s]\nPayload: [ %s ]", idTransaction, user.toString()));
+            kafkaTemplate.send(CREATE_USER_TOPIC, idTransaction, user);
+            ids.add(idTransaction);
+        }
+
+        return String.join(", ", ids);
     }
 
 }
