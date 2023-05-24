@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.avro:avro:1.11.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.avro/avro/1.11.0/2b0c58e5b450d4f4931456952ad9520cae9c896c/avro-1.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.avro/avro/1.11.0/48f7cf6c06ba99b304e452cbecf25c825b96ca94/avro-1.11.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

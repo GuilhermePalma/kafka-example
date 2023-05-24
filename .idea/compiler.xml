@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="consumer_example" target="17" />
+      <module name="consumer_example.main" target="17" />
+      <module name="consumer_example.test" target="17" />
+      <module name="producer_example" target="17" />
+      <module name="producer_example.main" target="17" />
+      <module name="producer_example.test" target="17" />
+      <module name="scheme_register_example" target="17" />
+      <module name="scheme_register_example.main" target="17" />
+      <module name="scheme_register_example.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

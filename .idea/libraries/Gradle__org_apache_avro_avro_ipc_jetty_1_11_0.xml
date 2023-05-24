@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.avro:avro-ipc-jetty:1.11.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.avro/avro-ipc-jetty/1.11.0/d7107d97c9c9e75ecfd3467911263270672148b2/avro-ipc-jetty-1.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.avro/avro-ipc-jetty/1.11.0/893dd3810a4f1be6cc3caf8e39ad34aaafbf6e03/avro-ipc-jetty-1.11.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

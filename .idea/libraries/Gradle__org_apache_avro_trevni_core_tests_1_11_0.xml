@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.avro:trevni-core:tests:1.11.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.avro/trevni-core/1.11.0/a937185e77acb0f4d952cecdc5ae8f8ad75c20bd/trevni-core-1.11.0-tests.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.avro/trevni-core/1.11.0/15179a2b8be11ae74b92ea077b56e5caa1d21f85/trevni-core-1.11.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

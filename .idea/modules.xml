@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/consumer_example.iml" filepath="$PROJECT_DIR$/.idea/modules/consumer_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/consumer_example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/consumer_example.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/consumer_example.test.iml" filepath="$PROJECT_DIR$/.idea/modules/consumer_example.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/kafla-example.iml" filepath="$PROJECT_DIR$/.idea/kafla-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/producer_example.iml" filepath="$PROJECT_DIR$/.idea/modules/producer_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/producer_example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/producer_example.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/producer_example.test.iml" filepath="$PROJECT_DIR$/.idea/modules/producer_example.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scheme_register_example.iml" filepath="$PROJECT_DIR$/.idea/modules/scheme_register_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scheme_register_example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/scheme_register_example.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scheme_register_example.test.iml" filepath="$PROJECT_DIR$/.idea/modules/scheme_register_example.test.iml" />
     </modules>
   </component>
 </project>

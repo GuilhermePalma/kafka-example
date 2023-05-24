@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.confluent:common-utils:6.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.confluent/common-utils/6.0.0/a539453b0639bde3fda4af6897eaa53c2be32b1a/common-utils-6.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.confluent/common-utils/6.0.0/e9be48858a4edaafb923bdd84127c806e1dd06a2/common-utils-6.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
